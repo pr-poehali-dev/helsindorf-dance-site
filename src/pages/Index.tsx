@@ -218,12 +218,14 @@ const Index = () => {
           <div className="space-y-8">
             <div className="flex items-center justify-center space-x-4">
               <Icon name="Mail" className="text-primary" size={24} />
-              <span className="text-xl">info@helsindorf.ru</span>
+              <span className="text-xl">helsindorf@gmail.com</span>
             </div>
             
-            <Button size="lg" className="px-8 py-4 text-lg">
-              <Icon name="Send" className="mr-3" size={24} />
-              Связаться в Telegram
+            <Button size="lg" className="px-8 py-4 text-lg" asChild>
+              <a href="https://t.me/me_helsin" target="_blank" rel="noopener noreferrer">
+                <Icon name="Send" className="mr-3" size={24} />
+                Связаться в Telegram
+              </a>
             </Button>
             
             <div className="pt-8">
@@ -256,15 +258,15 @@ const Index = () => {
             />
           </div>
           <h3 className="text-2xl font-bold mb-2">HELSINDORF</h3>
-          <p className="text-gray-400 mb-4">Танцевальная студия • Москва • 2025</p>
+          <p className="text-gray-400 mb-4">Танцевальная студия • Керчь • 2025</p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://www.instagram.com/helsindorff?igsh=MWxhMGJneGlrbXBiMw==" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Icon name="Instagram" size={24} />
             </a>
-            <a href="#" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://t.me/me_helsin" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Icon name="Send" size={24} />
             </a>
-            <a href="#" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://youtube.com/@me_helsin?si=Na4nsbroIanry-py" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Icon name="Youtube" size={24} />
             </a>
           </div>
