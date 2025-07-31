@@ -163,10 +163,9 @@ const Index = () => {
       {/* Video Section */}
       <section className="py-16 px-4 bg-black">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-12">Посмотрите как мы танцуем</h2>
           <div className="aspect-video rounded-lg overflow-hidden shadow-2xl">
             <iframe 
-              src="https://go.screenpal.com/watch/cTiwllnIaPM"
+              src="https://jumpshare.com/s/oQ7Ut2ITkPmRWhuQqbmC"
               className="w-full h-full"
               allow="autoplay; fullscreen"
               title="Helsindorf Dance Performance"
