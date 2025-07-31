@@ -160,6 +160,21 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 px-4 bg-black">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-white mb-12">Посмотрите как мы танцуем</h2>
+          <div className="aspect-video rounded-lg overflow-hidden shadow-2xl">
+            <iframe 
+              src="https://go.screenpal.com/watch/cTiwllnIaPM"
+              className="w-full h-full"
+              allow="autoplay; fullscreen"
+              title="Helsindorf Dance Performance"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Gallery Section */}
       <section className="py-16 px-4 bg-muted/30">
         <div className="max-w-6xl mx-auto">
@@ -167,33 +182,42 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform">
               <img 
-                src="/img/500123e4-6cca-49a5-b75a-ddecd6894dab.jpg" 
-                alt="Hip-hop танцы в студии"
+                src="https://cdn.poehali.dev/files/b6d54fef-6e1d-475e-aefa-7616e8cb1a97.jpg" 
+                alt="Good Thing - Helsindorf танцы"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform">
               <img 
-                src="/img/6aba748c-6a35-4d69-bc4e-1d90fa848edd.jpg" 
-                alt="Современная хореография"
+                src="https://cdn.poehali.dev/files/0b42e9a4-5028-415f-9112-81faceb525ee.jpg" 
+                alt="Танцевальное выступление с цветным освещением"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform">
               <img 
-                src="/img/ad758659-0899-40c8-a09b-a6540a71714b.jpg" 
-                alt="Jazz-funk урок"
+                src="https://cdn.poehali.dev/files/96376c62-4e19-40c6-aba5-984a7ceb1846.jpg" 
+                alt="Групповое выступление танцоров"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="aspect-square bg-gradient-to-br from-secondary/30 to-primary/30 rounded-lg flex items-center justify-center hover:scale-105 transition-transform">
-              <Icon name="Music" size={48} className="text-muted-foreground" />
+            <div className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform">
+              <img 
+                src="https://cdn.poehali.dev/files/8fbbb4be-94b9-436b-80bc-bd60f8441a1e.jpg" 
+                alt="Танцы в красном свете студии"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform">
+              <img 
+                src="https://cdn.poehali.dev/files/e0c6407f-eceb-4c39-9889-4ae549538059.jpg" 
+                alt="Выступление на сцене"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="aspect-square bg-gradient-to-br from-primary/25 to-secondary/25 rounded-lg flex items-center justify-center hover:scale-105 transition-transform">
-              <Icon name="Users" size={48} className="text-muted-foreground" />
-            </div>
-            <div className="aspect-square bg-gradient-to-br from-secondary/25 to-primary/25 rounded-lg flex items-center justify-center hover:scale-105 transition-transform">
-              <Icon name="Star" size={48} className="text-muted-foreground" />
+              <Icon name="Plus" size={48} className="text-muted-foreground" />
+              <span className="ml-2 text-muted-foreground">Больше фото</span>
             </div>
           </div>
         </div>
@@ -201,46 +225,40 @@ const Index = () => {
 
       {/* Contact Section */}
       <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">Контакты</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center">
-                  <Icon name="MapPin" className="mr-2" size={24} />
-                  Адрес студии
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-lg">г. Москва, ул. Танцевальная, д. 42</p>
-                <div className="flex items-center">
-                  <Icon name="Phone" className="mr-2" size={18} />
-                  <span>+7 (999) 123-45-67</span>
-                </div>
-                <div className="flex items-center">
-                  <Icon name="Mail" className="mr-2" size={18} />
-                  <span>info@helsindorf.ru</span>
-                </div>
-                <Button className="w-full">
-                  <Icon name="Send" className="mr-2" size={18} />
-                  Связаться в Telegram
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Отправить сообщение</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <Input placeholder="Ваше имя" />
-                <Input placeholder="Телефон или Email" />
-                <Textarea placeholder="Сообщение" rows={4} />
-                <Button className="w-full bg-primary hover:bg-primary/90">
-                  Отправить
-                </Button>
-              </CardContent>
-            </Card>
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-12">Контакты</h2>
+          
+          <div className="space-y-8">
+            <div className="flex items-center justify-center space-x-4">
+              <Icon name="Phone" className="text-primary" size={24} />
+              <span className="text-xl">+7 (999) 123-45-67</span>
+            </div>
+            
+            <div className="flex items-center justify-center space-x-4">
+              <Icon name="Mail" className="text-primary" size={24} />
+              <span className="text-xl">info@helsindorf.ru</span>
+            </div>
+            
+            <Button size="lg" className="px-8 py-4 text-lg">
+              <Icon name="Send" className="mr-3" size={24} />
+              Связаться в Telegram
+            </Button>
+            
+            <div className="pt-8">
+              <Card className="max-w-md mx-auto">
+                <CardHeader>
+                  <CardTitle>Отправить сообщение</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <Input placeholder="Ваше имя" />
+                  <Input placeholder="Телефон или Email" />
+                  <Textarea placeholder="Сообщение" rows={4} />
+                  <Button className="w-full bg-primary hover:bg-primary/90">
+                    Отправить
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
