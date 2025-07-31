@@ -8,10 +8,10 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   const [schedule, setSchedule] = useState([
-    { id: 1, day: 'Понедельник', time: '19:00', title: 'Хип-хоп для начинающих', instructor: 'Анна Петрова' },
-    { id: 2, day: 'Среда', time: '20:00', title: 'Современная хореография', instructor: 'Михаил Козлов' },
-    { id: 3, day: 'Пятница', time: '18:30', title: 'Джаз-фанк', instructor: 'Елена Сидорова' },
-    { id: 4, day: 'Суббота', time: '15:00', title: 'Детская группа', instructor: 'Ольга Иванова' },
+    { id: 1, day: 'Понедельник', time: '19:00', title: 'Хип-хоп для начинающих', instructor:  },
+    { id: 2, day: 'Среда', time: '20:00', title: 'Современная хореография', instructor:  },
+    { id: 3, day: 'Пятница', time: '18:30', title: 'Джаз-фанк', instructor:  },
+    { id: 4, day: 'Суббота', time: '15:00', title: 'Детская группа', instructor:  },
   ]);
 
   const [editingClass, setEditingClass] = useState(null);
