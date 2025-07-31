@@ -160,19 +160,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="py-16 px-4 bg-black">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="aspect-video rounded-lg overflow-hidden shadow-2xl">
-            <iframe 
-              src="https://jumpshare.com/s/oQ7Ut2ITkPmRWhuQqbmC"
-              className="w-full h-full"
-              allow="autoplay; fullscreen"
-              title="Helsindorf Dance Performance"
-            />
-          </div>
-        </div>
-      </section>
+
 
       {/* Gallery Section */}
       <section className="py-16 px-4 bg-muted/30">
@@ -228,11 +216,6 @@ const Index = () => {
           <h2 className="text-4xl font-bold mb-12">Контакты</h2>
           
           <div className="space-y-8">
-            <div className="flex items-center justify-center space-x-4">
-              <Icon name="Phone" className="text-primary" size={24} />
-              <span className="text-xl">+7 (999) 123-45-67</span>
-            </div>
-            
             <div className="flex items-center justify-center space-x-4">
               <Icon name="Mail" className="text-primary" size={24} />
               <span className="text-xl">info@helsindorf.ru</span>
