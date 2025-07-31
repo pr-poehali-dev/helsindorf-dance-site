@@ -266,7 +266,7 @@ const Index = () => {
             <a href="https://t.me/me_helsin" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Icon name="Send" size={24} />
             </a>
-            <a href="https://youtube.com/@me_helsin?si=Na4nsbroIanry-py" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://www.youtube.com/@me_hels1n?si=nFkBD4VtZ3CVJlzx" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Icon name="Youtube" size={24} />
             </a>
           </div>
